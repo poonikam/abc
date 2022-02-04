@@ -49,7 +49,7 @@ steps:
   displayName: 'Use Node 6.x'
 
 schedules:
-  - cron: '0 12 * * 1-7'
+  - cron: '0 0 * * *'
     displayName: Daily Midnight Build
     branches: 
      include:
